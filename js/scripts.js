@@ -23,4 +23,27 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("white-background");
   })
+
+  $("button#default").click(function(){
+    $("body").removeClass();
+    $("body").addClass("white-background");
+
+  })
+
+  $("button#dark").click(function(){
+    console.log("dark");
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+  })
+
+  $("p").click(function(){
+    $("p").removeClass();
+    $("p").addClass("highlight");
+  })
+
+  $(".btn-black").click(function() {
+    console.log("button");
+    $("#night").toggle();
+    $("#day").toggle();
+  });
 });

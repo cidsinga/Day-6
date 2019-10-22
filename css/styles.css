@@ -2,6 +2,10 @@
   display: none;
   }
 
+  #day {
+    display: none;
+    }
+
 .clickable:hover {
   color: red;
   cursor: pointer;
@@ -27,4 +31,29 @@
 
 .white-background {
   background-color: white;
+}
+.dark-background {
+  background-color: black;
+  color: white;
+}
+
+#default {
+  border: 2px solid blue;
+  color: lightblue;
+}
+
+#dark {
+  border: 2px solid blue;
+  color: lightblue;
+}
+
+
+p:hover {
+  background-color: lightpink;
+
+}
+
+.highlight {
+  background-color: lightpink;
+  border: 10px solid blue;
 }
