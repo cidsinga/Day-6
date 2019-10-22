@@ -1,0 +1,14 @@
+#appear {
+  display: none;
+  }
+
+.clickable:hover {
+  color: red;
+  cursor: pointer;
+
+}
+
+.clickable {
+  text-decoration: underline;
+
+}
