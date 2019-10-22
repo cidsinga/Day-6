@@ -12,3 +12,19 @@
   text-decoration: underline;
 
 }
+
+.green-background {
+  background-color: lightgreen;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.yellow-background {
+  background-color: lightyellow;
+}
+
+.white-background {
+  background-color: white;
+}
